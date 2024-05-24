@@ -124,6 +124,14 @@ node index.js --action add --name Mango --email mango@gmail.com --phone 322-22-2
 
 # Delete the contact
 node index.js --action remove --id qdggE76Jtbfd9eWJHrssH
+
+links for the images:
+
+https://ibb.co/Ykkpxyq
+https://ibb.co/Yyrwn3z
+https://ibb.co/S74h39S
+https://ibb.co/KzP7byW
+
 Step 6 - Homework Submission
 Command execution screenshots can be uploaded to any free cloud image storage service (Example: monosnap, imgbb.com) and the corresponding links are necessary add to the README.md file. Create this file at the root of the project. Then attach a link to the homework repository at LMS for mentor to check.
 
