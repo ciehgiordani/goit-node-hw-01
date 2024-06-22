@@ -27,6 +27,7 @@ const userSchema = new Schema(
       type: Boolean,
       default: false,
     },
+    // UUID
     verificationToken: {
       type: String,
       required: [true, "Verify token is required"],
