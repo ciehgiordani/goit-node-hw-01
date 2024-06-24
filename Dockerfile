@@ -1,5 +1,5 @@
 # What enviorment are we creating
-FROM node:18
+FROM node:20
 
 # Where is all the code going to lie in this enviroment
 WORKDIR /app
@@ -16,8 +16,12 @@ COPY . .
 # Send over any .env variables to the enviroment
 ENV PORT=3000
 
+# Set the environment variable to ignore unauthorized TLS
+ENV NODE_TLS_REJECT_UNAUTHORIZED=0
+
 # What Port is our enviroment listening for
 EXPOSE 3000
 
-# How do we start the app
+
+# How do we start the appa
 CMD ["npm", "run", "start:dev" ]
